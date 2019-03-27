@@ -4,7 +4,7 @@
   "description": "Modern frontend development boilerplate code",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-js": "babel src -d public"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,9 @@
     "url": "https://github.com/wrideveloper/modern-frontend-boilerplate/issues"
   },
   "homepage": "https://github.com/wrideveloper/modern-frontend-boilerplate#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2"
+  }
 }
