@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build-css": "sass src:public",
-    "build-js": "babel src -d public"
+    "build-js": "babel src -d public",
+    "build": "npm run build-css && npm run build-js"
   },
   "repository": {
     "type": "git",
