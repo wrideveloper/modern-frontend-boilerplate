@@ -4,7 +4,7 @@
   "description": "Modern frontend development boilerplate code",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "sass src:public"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,7 @@
     "url": "https://github.com/wrideveloper/modern-frontend-boilerplate/issues"
   },
   "homepage": "https://github.com/wrideveloper/modern-frontend-boilerplate#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "sass": "^1.17.3"
+  }
 }
