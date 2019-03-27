@@ -4,7 +4,8 @@
   "description": "Modern frontend development boilerplate code",
   "main": "index.js",
   "scripts": {
-    "build-css": "sass src:public"
+    "build-css": "sass src:public",
+    "build-js": "babel src -d public"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,9 @@
   },
   "homepage": "https://github.com/wrideveloper/modern-frontend-boilerplate#readme",
   "devDependencies": {
-    "sass": "^1.17.3"
+    "sass": "^1.17.3",
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2"
   }
 }
